@@ -15,11 +15,11 @@ For Historical GDPs: Our World in Data 1950 - 2017 https://ourworldindata.org/gr
 This data set uses 1 CSV file.  
 ## Proposed Methodolody:  
 Load the data into a structured SQL Database, as the datasets are consistent. Considering to create a discovery data layer for the CSV's and a business layer for fact tables for users to query.  
-Relevant Columns from Olympic Dataset:  
+### Relevant Columns from Olympic Dataset:  
 * Year  
 * Medal  
 * Country  
-Relevant Columns from Historical GDPs:  
+### Relevant Columns from Historical GDPs:  
 * Year  
 * Country  
 * GDP per capita  
