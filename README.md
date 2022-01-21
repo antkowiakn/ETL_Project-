@@ -3,7 +3,7 @@
 For this project we plan on using the data set for historic GDP's from 1950 - 2017, and comparing it to the Olympic Medals awarded to each country.  
 ## Question:  
 Does a nations GDP have any correlation to the amount of medals a country recieves in the Olympics?  
-Team Members  
+## Team Members  
 * Nicole Antkowiak  
 * Etienne Dembele  
 * Jason Lister  
