@@ -13,4 +13,14 @@ For Olympic Medals: Olympic Sport and Medals, 1896-2014 https://www.kaggle.com/t
 This data set uses 3 CSV files: Dictionary, Summer, Winter.  
 For Historical GDPs: Our World in Data 1950 - 2017 https://ourworldindata.org/grapher/real-gdp-per-capita-pwt  
 This data set uses 1 CSV file.  
+## Proposed Methodolody:  
+Load the data into a structured SQL Database, as the datasets are consistent. Considering to create a discovery data layer for the CSV's and a business layer for fact tables for users to query.  
+Relevant Columns from Olympic Dataset:  
+* Year  
+* Medal  
+* Country  
+Relevant Columns from Historical GDPs:  
+* Year  
+* Country  
+* GDP per capita  
 
