@@ -4,10 +4,10 @@ For this project we plan on using the data set for historic GDP's from 1950 - 20
 ## Question:  
 Does a nations GDP have any correlation to the amount of medals a country recieves in the Olympics?  
 Team Members  
-Nicole Antkowiak  
-Etienne Dembele  
-Jason Lister  
-Mandakini Majumdar  
+* Nicole Antkowiak  
+* Etienne Dembele  
+* Jason Lister  
+* Mandakini Majumdar  
 ## Sources:  
 Kaggle Olympic Sport and Medals, 1896-2014 https://www.kaggle.com/the-guardian/olympic-games  
 This data set uses 3 CSV files: Dictionary, Summer, Winter.  
