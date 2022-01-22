@@ -19,6 +19,7 @@ Load the data into a structured SQL Database, as the datasets are consistent. Co
 * Year  
 * Medal  
 * Country  
+* Winter/Summer Games
 ### Relevant Columns from Historical GDPs:  
 * Year  
 * Country  
