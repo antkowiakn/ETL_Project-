@@ -1,0 +1,21 @@
+CREATE TABLE country_master (
+country TEXT,
+country_code TEXT PRIMARY KEY
+);
+
+CREATE TABLE olympic_medal
+(
+year integer,
+country_code TEXT REFERENCES country_master(country_code),
+session TEXT,
+medal INT,
+PRIMARY KEY(country_code, year, session)
+);
+
+CREATE TABLE gdp_history
+(
+country_code TEXT REFERENCES country_master(country_code),
+year integer,
+gdp_per_capita FLOAT,
+PRIMARY KEY(country_code, year)
+);
