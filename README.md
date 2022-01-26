@@ -44,3 +44,9 @@ They might have a null hyptothesis that there is no relationship between a natio
 They would then perform hypothesis testing and if their p-value is less than or equal to their significance level, they could then reject the null hpothesis and conclude that the data favors the alternative hypothesis, 
 which is to say that there is some relationship between medal counts and economic status.  On the contrary, if the p-value is greater than the significance level, then the null hypothesis would not be rejected and they would conclude
 that the data favors the fact that there is no relationship between the two variables. 
+## Team Members  
+* Nicole Antkowiak  
+* Etienne Dembele  
+* Jason Lister  
+* Mandakini Majumdar  
+# ETL Project Report
