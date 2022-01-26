@@ -7,9 +7,9 @@ The Extract, Transform and Load (ETL) methodolgoy guided our process, which is d
 ## Data source Identification & Extraction Process 
 ​
 We began the process by searching for data sources. We first identified 3 csv files from Kaggle related to historical Olympics medals won: 
-Olympic Sport and Medals, 1896-2014 https://www.kaggle.com/the-guardian/olympic-games. This data set uses 3 CSV files: Dictionary, Summer and Winter.
+Olympic Sport and Medals, 1896-2014 https://www.kaggle.com/the-guardian/olympic-games. This data set uses 3 CSV files: Dictionary, Summer and Winter. 
 ​
-To help our production analysts study the relationship between economic status and medal counts, we then found a data source for historical Per Capita GDP: Our World in Data 1950 - 2017 https://ourworldindata.org/grapher/real-gdp-per-capita-pwt. This data set contains 1 CSV file.
+To help our production analysts study the relationship between economic status and medal counts, we then found a data source for historical Per Capita GDP: Our World in Data 1950 - 2017 https://ourworldindata.org/grapher/real-gdp-per-capita-pwt. This data set contains 1 CSV file. 
 We imported the csv files using Python and Jupyter lab. We scanned the the data sets and identified a 3 character code called country code that thought could be used to help us in the transformation part of the process. 
 ​
 ## Transformation & Cleanup
