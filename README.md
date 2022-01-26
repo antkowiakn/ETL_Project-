@@ -27,7 +27,7 @@ We built the database in PostgreSQL because of the relative uniformity of the da
 ​
 The new Olypics_db database has 3 tables, each corresponding to a Pandas dataframe from our work in jupyter lab:  
 1) country_master  
-2) 2 olympic_medal  
+2) olympic_medal  
 3) gdp_history  
 ​
 ## Possible work to be performed by analysts
