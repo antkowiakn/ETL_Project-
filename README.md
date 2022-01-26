@@ -16,7 +16,7 @@ We imported the csv files using Python and Jupyter lab. We scanned the the data 
 ​
 After the imports we initially looked for opportunities to clean it and transform it into a more focused, structured set of data that could be efficiently loaded into a relational database. 
 We looked for null values in the data sets and deleted rows representing years that were not common to both data sets. 
-We added columns representing "summer" and "winter", dropped unnecessary columns.  
+We added columns representing "summer" and "winter", dropped unnecessary columns.   
 We appended all historical olympic games data into one larger dataframe and we subtotaled the data, grouping it by games session, and by country in order to see medal counts.
 Upon doing this, we found that some countries who had won medals in the past, (eg. Yugoslavia), were not represented in the Olympic dictionary or in the GDP data set. We then renamed multiple columns from brevity and to ensure that when loading into our database in the next step, we would not encounter problems resulting from mixed cases. 
 ​
@@ -25,7 +25,10 @@ Upon doing this, we found that some countries who had won medals in the past, (e
 After the above transformation steps, we used sqlalchemy and Pandas' dataframe.to_sql method to loaded the data into a relational database in PostgrSQL. 
 We built the database in PostgreSQL because of the relative uniformity of the data that we were loading and due to the relative simplicity of the tasks we envision our SQL analysts performing on the database.
 ​
-The new Olypics_db database has 3 tables, each corresponding to a Pandas dataframe from our work in jupyter lab: 1) country_master, 2 olympic_medal and 3) gdp_history. 
+The new Olypics_db database has 3 tables, each corresponding to a Pandas dataframe from our work in jupyter lab:  
+1) country_master  
+2) 2 olympic_medal  
+3) gdp_history  
 ​
 ## Possible work to be performed by analysts
 ​
