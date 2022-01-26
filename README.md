@@ -1,8 +1,3 @@
-## Team Members  
-* Nicole Antkowiak  
-* Etienne Dembele  
-* Jason Lister  
-* Mandakini Majumdar  
 # ETL Project Report
 ​
 Our project started out of curiosity about the type of data that might be interesting to look at with respect to Olympic games. One question that drove us was whether there might exist a deterministic relationship between a nation's medal counts and its economic status. 
